@@ -1,0 +1,6 @@
+{
+  "name": "Fisioaleph - Fisioterapia y Rehabilitación",
+  "description": "Sitio web oficial y plataforma clínica de Fisioaleph: Centros de Fisioterapia y Rehabilitación en Zapopan, Jalisco, protocolos de tratamiento y software clínico.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

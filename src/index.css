@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #003441;
+    --primary-container: #0f4c5c;
+    --secondary: #006874;
+    --secondary-container: #5ce9fe;
+    --secondary-fixed: #98f0ff;
+    --secondary-fixed-dim: #45d8ed;
+    --tertiary: #14342f;
+    --tertiary-container: #2c4b45;
+    --tertiary-fixed: #c7eae1;
+    --tertiary-fixed-dim: #abcec5;
+    --surface: #f7f9fb;
+    --surface-card: #ffffff;
+    --surface-container-low: #f2f4f6;
+    --surface-container: #eceef0;
+    --surface-container-high: #e6e8ea;
+    --ink-headline: #262b38;
+    --text-body: #555555;
+    --outline: #70787c;
+    --outline-variant: #c0c8cb;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: var(--surface);
+    color: var(--ink-headline);
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  }
+
+  code, pre, .font-mono, .telemetry-val {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Utilities for BioKinetic Clinical UI */
+.bg-primary { background-color: #003441; }
+.bg-primary-container { background-color: #0f4c5c; }
+.bg-secondary { background-color: #006874; }
+.bg-secondary-container { background-color: #5ce9fe; }
+.bg-tertiary { background-color: #14342f; }
+.bg-tertiary-fixed { background-color: #c7eae1; }
+.bg-surface-card { background-color: #ffffff; }
+.bg-surface-container-low { background-color: #f2f4f6; }
+.bg-surface-container { background-color: #eceef0; }
+
+.text-primary { color: #003441; }
+.text-primary-container { color: #0f4c5c; }
+.text-secondary { color: #006874; }
+.text-secondary-fixed { color: #98f0ff; }
+.text-secondary-container { color: #006773; }
+.text-tertiary { color: #14342f; }
+.text-tertiary-fixed-dim { color: #abcec5; }
+.text-ink-headline { color: #262b38; }
+.text-body { color: #555555; }
+.text-outline { color: #70787c; }
+
+.font-headline-xl {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.font-headline-lg {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+.font-headline-md {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.font-headline-sm {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+}
+
+.font-body-lg {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.font-body-md {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.font-body-sm {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.font-label-lg {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+}
+
+.font-label-md {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+}
+
+.font-label-sm {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+}
